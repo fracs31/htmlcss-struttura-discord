@@ -1,0 +1,33 @@
+/* Regole inziali */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #8ecae6;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+/* Row */
+.row {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+/* Column */
+.col {
+    border: 1px dashed black;
+}
