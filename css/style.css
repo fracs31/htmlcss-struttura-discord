@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Header */
 header {
     background-color: #8ecae6;
@@ -107,21 +112,50 @@ main section:nth-child(2n) {
     border: 2px dashed black;
 }
 
+/* Footer */
 footer {
     background-color: #353535;
     padding: 10px;
 }
 
-.section-footer {
-    height: 400px;
+/* Section del footer */
+footer section {
+    padding: 10px 0px;
 }
 
+/* Linea presente nel footer */
+footer hr {
+    color: white;
+}
+
+/* Righe presenti nel footer */
+.section-footer {
+    height: 400px;
+    border: 2px dashed black;
+}
+
+/* Colonne grandi presenti nel footer */
 .footer-big {
-    background-color: tomato;
+    background-color: #e76f51;
     flex-grow: 2;
 }
 
+/* Colonne piccole presenti nel footer */
 .footer-small {
-    background-color: green;
+    background-color: #02c39a;
     flex-grow: 1;
+}
+
+/* Righe della sezione finale del footer */
+.section-footer-end {
+    background-color: #6fffe9;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Colonne finali presenti nel footer*/
+.footer-end {
+    background-color: #e76f51;
+    padding: 5px;
 }
