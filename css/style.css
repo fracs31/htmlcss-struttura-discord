@@ -95,13 +95,13 @@ main section:nth-child(2n) {
 
 /* Colonne grandi delle righe nelle section del main */
 .main-big {
-    flex-basis: 550px;
+    flex-basis: 60%;
     background-color: #2196f3;
 }
 
 /* Colonne piccole delle righe nelle section del main */
 .main-small {
-    flex-basis: 350px;
+    flex-basis: 40%;
     background-color: #ffc8dd;
 }
 
